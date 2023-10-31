@@ -15,6 +15,7 @@ public class Wrapper {
             file = new FileInputStream("./src/test/resources/config.properties");
         }
         catch (FileNotFoundException e) {
+        	//just for code change
             e.printStackTrace();
         }
     }
